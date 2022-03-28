@@ -1,0 +1,333 @@
+@media screen and (max-width: 768px) {
+ 
+    /* header */
+    .header {
+        flex-direction: column;
+        padding-top: 45px;
+        padding-left: 0;
+    }    
+    .header-menu {
+        margin: 0;
+        padding: 0;
+    }
+    .menu-item {
+        border-bottom: 3px solid #F2F2F2;
+        color: black;
+        list-style: none; 
+        padding-top: 15px;
+        text-align: center;
+        padding-right: 0;
+        width: 50vw;
+    }
+    .menu-item:hover {
+        border-bottom-color: #0065FC;
+    }
+    .menu-house  {
+        padding-bottom: 20px;
+        color: black;
+    }
+    .houses{
+        text-decoration: none;
+        white-space: nowrap;
+        text-align: center; 
+        padding-top: 40px;
+        padding-right: 20px;
+        padding-left: 20px;
+        transition: width 0.5ms ease;
+    }
+    .menu-house:hover{
+        border-top: none;
+        cursor: default; 
+    }
+
+   /* titre du site */
+    .titre-site {
+        padding-right: 55px;
+        margin-top: 25px; 
+        padding-left: 25px;
+    }
+    .site-titres {  
+        padding-left: 25px;
+        padding-bottom: 15px;
+    }
+
+    /* formulaire */
+    .form {
+        padding-left: 25px;
+    }
+    .button{
+        display: none;
+    }
+    .search {
+        font-weight: bold;
+    }
+    .rechercher {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height : 50px;
+        background-color: #0065FC;
+        border-radius: 10px 10px 10px 10px;
+        height: 40px;
+        color: white;
+    }
+    .hidden{
+        display: flex;
+        visibility: visible;
+    }
+
+    /* filtres */
+    .filtres-section {
+        padding-top: 10px;
+    }
+    .filtres-buttons {
+        margin: -10px;
+    }
+    .text-button {
+        margin: 3px;
+    }
+    
+    /* info */
+    .info-mob {
+        margin-top:  15px;
+    }
+    .info-icon-mob {
+        width: 45px;
+        height: 35px;
+        border-radius: 50px;
+        border: 2px solid #F2F2F2;
+        color: #0065FC;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    /* Hébergement à marseille et Les plus populaires */
+    /* partie Hébergement à Marseille */
+    .hebergement {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0;
+    }
+    .location {
+        background-color: #fff;
+        width: 100%; 
+    }
+    .city {
+        padding-bottom: 15px;
+        padding-top: 15px;
+        margin-left:20px;
+    }
+
+    /* Auberge la Cannebière */
+    .resort-auberge {
+        width: 330px;
+        height: 228px;
+        margin: -5px;
+    }
+    .photo-auberge {
+        width: 320px;
+        height: 130px;
+    }  
+
+    /* hôtel du port */
+    .resort-hotel {
+        width: 330px;
+        height: 228px;
+    }
+    .photo-hotel {
+        width: 320px;
+        height: 130px;
+    }
+
+    /* hôtel les mouettes */
+    .resort-mouette {
+        width: 330px;
+        height: 228px;
+        margin: -5px;
+    }
+    .photo-mouette {
+        width: 320px;
+        height: 130px;
+    }
+
+    /* hôtel de la mer */
+    .resort-mer {
+        width: 330px;
+        height: 228px;
+    }
+    .photo-mer {
+        width: 320px;
+        height: 130px;
+    }
+
+    /* Auberge le panier */
+    .resort-panier {
+        width: 330px;
+        height: 228px;
+        margin: -5px;
+    }
+    .photo-panier {
+        width: 320px;
+        height: 130px;
+    }
+
+    /* hôtel chez amina */
+    .resort-amina {
+        width: 330px;
+        height: 228px;
+    }
+    .photo-amina {
+         width: 320px;
+        height: 130px;
+    }
+
+    /* afficher plus */
+    .plus {
+        margin-left: 5px;
+    } 
+    
+
+
+    /* partie populaire */
+    .popular {
+        border-radius: 0;
+        width: 100%;
+        height: 550px;
+    }
+    .chart {
+        padding-top: 27px;
+        padding-right: 15px;
+    }
+
+    /* hôtel du soliel du matin */
+    .matin-picture {
+        width: 340px;
+        height: 145px; 
+        margin: -2px;
+    }
+   .picture-matin {
+        width: 137px;
+        height: 136px;
+   }
+
+    /* au coeur de l'eau */
+    .hôte-picture {
+        width: 340px;
+        height: 145px;
+    }
+    .picture-hôtes {
+        width: 137px;
+        height: 136px;
+    }
+
+    /* hôtel tout bleu et blanc */
+    .blanc-picture {
+        width: 340px;
+        height: 145px; 
+        margin: -2px;
+    }
+    .picture-blanc {
+        width: 137px;
+        height: 136px;
+    }
+    
+    
+    /* Activités à Marseille */
+    .activité {
+        padding-left: 15px;
+        padding-top: 15px;
+    }
+    .bloc-flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* vieux port */
+    .vieux-img {
+        width: 330px;
+        height: 190px;
+    }
+    .img-vieux {
+        width: 330px;
+        height: 130px;
+    }
+
+    /* Fort de Pomeguès */
+    .fort-img {
+        width: 330px;
+        height: 190px;
+        margin-top: 30px;
+    }
+    .img-fort {
+        width: 330px;
+        height: 130px;
+    }
+
+    /* Île du Fioul */
+    .frioul {
+        text-decoration: none;
+    }
+    .frioul-img {
+        width: 330px;
+        height: 190px;
+        margin-top: 30px;
+    }
+    .img-frioul {
+        width: 330px;
+        height: 130px;
+    }
+    
+    /* Parc National des Calanques */
+    .calanque-img {
+        width: 330px;
+        height: 190px;
+        margin-top: 30px;
+    }
+    .img-calanque {
+        width: 330px;
+        height: 130px;
+    }
+
+    /* Notre-Dame-de-la-Garde */
+    .la-garde-img {
+        width: 330px;
+        height: 190px;
+        margin-top: 30px;
+    }
+    .img-la-garde {
+        width: 330px;
+        height: 130px;
+    }
+    /*Parc de Longchamp  */
+    .longchamp-img {
+        width: 330px;
+        height: 190px;
+        margin-top: 30px;
+    }
+    .img-longchamp {
+        width: 330px;
+        height: 130px;
+    }
+
+
+    /* footer */
+    .footer-flex {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nav-propos {
+        padding-left: 30px;
+    }
+    .nav-hebergement {
+        padding-left: 30px;
+    }
+    .nav-assistance {
+        padding-left: 30px;
+    }
+}
+

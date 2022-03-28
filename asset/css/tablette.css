@@ -1,0 +1,544 @@
+ @media screen and (min-width:768px) and (max-width: 992px) {
+     
+
+ /* header */
+ .header {
+    flex-direction: column;
+    padding-top: 45px;
+    padding-left: 0;
+}    
+.header-menu {
+    margin: 0;
+    padding: 0;
+}
+.menu-item {
+    border-bottom: 3px solid #F2F2F2;
+    color: black;
+    list-style: none; 
+    padding-top: 15px;
+    text-align: center;
+    padding-right: 0;
+    width: 50vw;
+}
+.menu-item:hover {
+    border-bottom-color: #0065FC;
+}
+.menu-house  {
+    padding-bottom: 20px;
+    color: black;
+}
+.houses{
+    text-decoration: none;
+    white-space: nowrap;
+    text-align: center; 
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+    transition: width 0.5ms ease;
+}
+.menu-house:hover{
+    border-top: none;
+    cursor: default; 
+}
+
+/* titre du site */
+.titre-site {
+    margin-top: 30px; 
+}
+
+/* formulaire */
+.form {
+    margin-top: 30px;
+}
+.button{
+    display: none;
+}
+.search {
+    font-weight: bold;
+}
+.rechercher {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height : 50px;
+    background-color: #0065FC;
+    border-radius: 10px 10px 10px 10px;
+    height: 40px;
+    color: white;
+}
+.hidden{
+    display: flex;
+    visibility: visible;
+}
+
+/* filtres */
+.filtres-section {
+    display: flex;
+    flex-direction: column;
+}
+.filtres-buttons {
+    margin: -8px;
+}
+.text-button {
+    margin: 6px;
+    padding-right: 18px;
+}
+
+/* info */
+.info {
+    margin-top: 20px;
+}
+.info-icon {
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    border: 2px solid #F2F2F2;
+    color: #0065FC;
+    text-align: center;
+    margin-bottom: 5px;
+}
+/* Hébergement à Marseille et les plus Polulaire */
+/* partie Hébergement à Marseille */
+.hebergement {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.location {
+    background-color: #F2F2F2;
+    width: 100%;
+    border-radius: 0;
+}
+.city {
+    padding-bottom: 15px;
+    margin-left:20px;
+}
+
+ 
+/* Auberge la Cannebière */
+.resort-auberge {
+    display: flex;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 1px 1px 8px #808080;
+    width: 340px;
+    height: 160px;
+}
+.tab-auberge {
+    float: left;
+}
+.photo-auberge {
+    width: 160px;
+    height: 150px;
+    border-radius: 20px 0 0 20px;
+    overflow: hidden;
+    object-fit: cover;
+}  
+.name-auberge {
+    color: black;
+    margin-top: 2px;
+    padding-left: 200px; 
+}
+.price-auberge {
+    align-items: center;
+    padding-right: 90px;
+}
+.star-auberge {
+    padding-top: 40px;
+    padding-left: 180px;
+}
+/* hôtel du port */
+.resort-hotel {
+    display: flex;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 1px 1px 8px #808080;
+    width: 340px;
+    height: 160px;
+}
+.tab-hotel {
+    float: left;
+}
+.photo-hotel {
+    width: 160px;
+    height: 150px;
+    border-radius: 20px 0 0 20px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.name-hotel {
+    color: black;
+    margin-top: 5px;
+    padding-left: 205px;
+    padding-right: 50px;
+}
+.star-hotel {
+    padding-top: 40px;
+    padding-left: 190px;
+}
+/* hôtel les mouettes */
+.resort-mouette {
+    display: flex;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 1px 1px 8px #808080;
+    width: 340px;
+    height: 160px;
+}    
+.tab-mouette {
+    float: left;
+}
+.photo-mouette {
+    width: 160px;
+    height: 150px;
+    border-radius: 20px 0 0 20px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.name-mouette {
+    color: black;
+    margin-top: 5px;
+    padding-left: 205px;
+    padding-right: 50px;
+}
+.star-mouette {
+    padding-top: 40px;
+    padding-left: 190px;
+}
+/* hôtel de la mer */
+.resort-mer {
+    display: flex;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 1px 1px 8px #808080;
+    width: 340px;
+    height: 160px;
+}
+.tab-mer {
+    float: left;
+}
+.photo-mer {
+    width: 160px;
+    height: 150px;
+    border-radius: 20px 0 0 20px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.name-mer {
+    color: black;
+    margin-top: 5px;
+    padding-left: 205px;
+    padding-right: 50px;
+}
+.star-mer {
+    padding-top: 40px;
+    padding-left: 190px;
+}
+/* Auberge le panier */
+.resort-panier {
+    display: flex;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 1px 1px 8px #808080;
+    width: 340px;
+    height: 160px;
+}
+.tab-panier {
+    float: left;
+}
+.photo-panier {
+    width: 160px;
+    height: 150px;
+    border-radius: 20px 0 0 20px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.name-panier {
+    color: black;
+    margin-top: 5px;
+    padding-left: 205px;
+    padding-right: 50px;
+}
+.star-panier {
+    padding-top: 40px;
+    padding-left: 190px;
+}
+/* hôtel chez amina */
+.resort-amina {
+    display: flex;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 1px 1px 8px #808080;
+    width: 340px;
+    height: 160px;
+}
+.tab-amina {
+    float: left;
+}
+.photo-amina {
+     width: 160px;
+     height: 150px;
+     border-radius: 20px 0 0 20px;
+     overflow: hidden;
+     object-fit: cover;
+}
+.name-amina {
+    color: black;
+    margin-top: 5px;
+    padding-left: 205px;
+    padding-right: 50px;
+}
+.star-amina {
+    padding-top: 40px;
+    padding-left: 190px;
+}
+
+/* partie populaire */
+.popular {
+    border-radius: 0px;
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    padding: 5px;
+}
+.chart {
+    padding-top: 27px;
+    padding-right: 30px;
+}
+.card-columm {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
+}
+/* hôtel du soliel du matin */
+.matin-picture {
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 1px 1px 8px #808080;
+    width: 210px;
+    height: 250px; 
+}
+.picture-matin {
+    width: 200px;
+    height: 120px;
+    border-radius: 20px 20px 0 0;
+    overflow: hidden;
+    object-fit: cover;  
+}
+.name-matin {
+    padding-left: 25px;
+    color: black;
+}
+.price-matin {
+    padding-left: 15px;
+    padding-top: 5px;
+}
+.matin-star {
+    padding-left: 25px;
+    padding-top: 35px;
+}
+/* au coeur de l'eau */
+.hôte-picture {
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 1px 1px 8px #808080;
+    width: 210px;
+    height: 250px; 
+}
+.picture-hôtes {
+    width: 200px;
+    height: 120px;
+    border-radius: 20px 20px 0 0;
+    overflow: hidden;
+    object-fit: cover;
+}
+.name-hôtes {
+    color: black;
+    padding-left: 25px;
+}
+.price-hôtes {
+    padding-top: 5px;
+    padding-left: 15px;
+}
+.hôtes-star {
+    padding-left: 25px;
+    padding-top: 35px;
+}
+/* hôtel tout bleu et blanc */
+.blanc-picture {
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 1px 1px 8px #808080;
+    width: 210px;
+    height: 250px;  
+}
+.picture-blanc {
+    width: 200px;
+    height: 120px;
+    border-radius: 20px 20px 0 0;
+    overflow: hidden;
+    object-fit: cover;
+}
+.name-blanc {
+    color: black;
+    padding-left: 25px;
+}
+.price-blanc {
+    padding-top: 5px;
+    padding-left: 15px;
+}
+.blanc-star {
+    padding-left: 25px;
+    padding-top: 35px;
+}
+
+
+/* section Activités à Marseille */
+
+.activité {
+padding-left: 30px;
+padding-top: 25px;
+}
+.bloc-flex {
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+/* vieux port */
+.vieux-img {
+background-color: #fff;
+box-shadow: 1px 1px 8px #808080;
+border-radius: 20px;
+width: 155px;
+height: 440px;
+}
+.img-vieux {
+width: 155px;
+height: 370px;
+border-radius: 20px 20px 0 0;
+overflow: hidden;
+object-fit: cover;
+}
+.vieux-title {
+padding-left: 10px;
+}
+
+/* Fort de Pomeguès */
+.fort-img {
+    background-color: #fff;
+    box-shadow: 1px 1px 8px #808080;
+    border-radius: 20px;
+    width: 155px;
+    height: 200px;
+}
+.img-fort {
+    width: 155px;
+    height: 130px;
+    border-radius: 20px 20px 0 0;
+    overflow: hidden;
+    object-fit: cover;
+}
+.fort-title {
+    padding-left: 10px;
+}
+/* Île du Fioul */
+.frioul-img {
+    background-color: #fff;
+    box-shadow: 1px 1px 8px #808080;
+    border-radius: 20px;
+    width: 155px;
+    height: 220px;
+    margin-top: 20px;
+}
+.img-frioul {
+    border-radius: 20px 20px 0 0;
+    width: 155px;
+    height: 150px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.frioul-title {
+    padding-left: 10px;
+}
+
+/* Parc National des Calanques */
+.calanque-img {
+    background-color: #fff;
+    box-shadow: 1px 1px 8px #808080;
+    border-radius: 20px;
+    width: 155px;
+    height: 440px;
+}
+.img-calanque {
+    width: 155px;
+    height: 370px;
+    border-radius: 20px 20px 0 0;
+    overflow: hidden;
+    object-fit: cover;
+}
+.calanque-title {
+    padding-left: 10px;
+}
+/* Notre-Dame-de-la-Garde */
+.la-garde-img {
+    background-color: #fff;
+    box-shadow: 1px 1px 8px #808080;
+    border-radius: 20px;
+    width: 155px;
+    height: 220px;
+}
+.img-la-garde {
+    border-radius: 20px 20px 0 0;
+    width: 155px;
+    height: 150px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.la-garde-title {
+    padding-left: 10px;
+}
+/*Parc de Longchamp  */
+.longchamp-img {
+    background-color: #fff;
+    box-shadow: 1px 1px 8px #808080;
+    border-radius: 20px;
+    width: 155px;
+    height: 200px;
+    margin-top: 20px;
+}
+.img-longchamp {
+    width: 155px;
+    height: 130px;
+    border-radius: 20px 20px 0 0;
+    overflow: hidden;
+    object-fit: cover;
+}
+.longchamp-title {
+    padding-left: 10px;
+}
+
+
+/* footer */
+.footer-flex {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; 
+} 
+/* a propos */
+ .nav-propos {
+    padding-left: 5px; 
+} 
+.propos {
+    padding-top: 35px;
+}
+/* assistance */
+.nav-assistance {
+    padding-right: 15px;
+}
+
+
+}
+     
